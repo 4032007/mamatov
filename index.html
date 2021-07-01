@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ru"> 
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<title>Код здоровья</title> 
+	<meta name="description" content=Код здоровья"" /> 
+	<meta name="keywords" content="Код здоровья"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=f5b2c135-d598-4f73-a326-daaf0a564f30"></script>
+	<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" />
+	<link rel="stylesheet" href="css/slick-theme.css" type="text/css" />
+	<link rel="stylesheet" href="template_styles.css" type="text/css" />
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<div class="main">
+    	<div class="rsp"></div>
+    	<div class="wr-header">
+            <header>
+                <div class="header__top">
+                    <div class="header__logo"><a href="/"><img class="logo-desctop" src="images/logo.png" alt="Клуб активного долголетия" /> <img class="logo-mob" src="images/ico-map.png" alt="Клуб активного долголетия" /></a></div>
+                    
+                    <div class="header__right">
+                        <div class="header__contacts">
+                            <div class="header__phone"><a title="Позвонить нам" href="tel:84957433154">8 495 743-31-54</a></div>
+                            <div class="header__mail"><a title="Написать нам" href="mailto:email@rubulat.ru">email@rubulat.ru</a></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="header__menu">
+                    <ul>
+                        <li><a class="scroll" href="#programm">Программа курса</a></li>
+                        <li><a class="scroll" href="#coms">Отзывы</a></li>
+                        <li><a class="scroll" href="#about">Об авторе</a></li>
+                        <li><a class="scroll" href="#reg">Регистрация</a></li>
+                        <li><a class="scroll" href="#contacts">Контакты</a></li>
+                    </ul>
+                </div>
+                
+				<div class="menu-tt">
+					<a class="menu-but" href="#"><span></span></a>
+				</div>
+            </header>
+        </div>
+        
+        <div class="content">
+        	<div class="about">
+            	<div class="about__left">
+                	<img src="images/promo.webp" />
+                </div>
+                
+                <div class="about__right">
+                	<div class="about__title">
+                    	<span>Зарегистрируйтесь</span>
+                        <p>Получите доступ к бесплатным трансляциям «Код здоровья»</p>
+                    </div>
+                    
+                    <div class="about__form">
+                    	<form>
+                        	<div class="about__field"><input type="text" placeholder="Ваше имя" /></div>
+                            <div class="about__field"><input type="text" placeholder="Ваш телефон" /></div>
+                            <div class="assest">
+                            	<input checked id="check" type="checkbox" />
+                            	<label for="check">Отправляя данную форму, вы соглашаетесь с <a target="_blank" href="https://mamatov.com/privacy/">политикой конфиденциальности</a> и <a target="_blank" href="https://mamatov.com/payback/">договором оферты.</a></label>
+                            </div>
+                            <div class="about__button"><button type="submit">Регистрация</button></div>
+                        </form>
+                        <div class="ass">Внимание! Количество мест на трансляции ограничено! Успейте зарегистрироваться и забронировать место на бесплатной трансляции.</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="programm" class="b-courses">
+            	<div class="title">Содержание курса</div>
+            	<div class="tabs-courses tabs-tb">
+                	<div class="nav-courses nav-tb">
+                    	<ul>
+                        	<li><span>Основая программа</span></li>
+                            <li><span>Дополнительно</span></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="content-courses cont-tb">
+                    	<div class="tab-courses tab-tb">
+                        	<div class="top-product">
+                                <img src="images/c56ec651.png" alt="" />
+                                <ul>
+                                    <li>Почему осень – поворотная точка для всего нашего здоровья? А. Маматов учит основам укрепления здоровья в преддверии зимних холодов.</li>
+                                    <li>Что такое «Код Здоровья» и какую пользу всему организму приносит комплексная система оздоровления?</li>
+                                    <li>Какие правила требуют соблюдения в соответствии с циркадными ритмами и сезонными климатическими изменениями?</li>
+                                    <li>Как это – быть здоровым вопреки: экологии, качеству воды, продуктам на прилавках и ухудшающимися условиями жизни?</li>
+                                    <li>Ученые уверены: люди живут гораздо меньше срока, отведённого природой для жизни.</li>
+                                    <li>Какие факторы сильнее влияют на здоровье зрелого и пожилого человека?</li>
+                                    <li>Старость – не в радость? Глупости! Старость может и должна быть прекрасным временем для себя и своих близких.</li>
+                                    <li>Возрастной износ организма – неизбежность, или мы всё-таки в силах влиять на него и запускать негативные процессы вспять?</li>
+                                    <li>Почему болезнь никогда не приходит в одиночестве? Как не дать болезням привести своих «подруг»?</li>
+                                 </ul>
+                             </div>
+                             <ul>
+                             	<li>Иммунная защита – миф алчных фармацевтов или реальный щит от множества заболеваний?</li>
+                                <li>Наследственность и крепкое здоровье в пожилом возрасте – есть ли связь, и в чем она выражается более всего?</li>
+                                <li>Как быть здоровым вопреки плохой наследственности?</li>
+                                <li>Что имеют в виду китайские врачеватели, говоря: «Жить Осенью, не напрягаясь»?</li>
+                                <li>Польза осенних дождей для здоровья нервной системы и нормализации давления.</li>
+                                <li>Десять вредных пищевых привычек, которые сокращают нашу жизнь минимум на десять лет.</li>
+                                <li>Как волхвы Древней Руси «учили здоровью» простых людей, и что из их учений применимо сегодня?</li>
+                                <li>Как древнерусские старцы умудрялись сохранять здоровье до глубокой старости и рожать при этом малых деток? Чудеса, сказки, или строгое соблюдение правил матушки природы?</li>
+                                <li>Как правильно болеть: о том, как преодолевать ОРВИ, ОРЗ, грипп, ангину, бронхит и другие популярные в народе заболевания.</li>
+                                <li>Как сохранить своё здоровье в отечественных реалиях: тотальное загрязнение воздуха и воды, лесные пожары, ухудшение экологии, радиационное загрязнение и изменение климата?</li>
+                                <li>Чеснок – золотой страж нашего здоровья! Правила хранения, активации и приготовления целебных настоев и блюд с чесноком.</li>
+                                <li>Зелёный – традиционный цвет здоровья. Применяем правило зеленого цвета в формировании нашей еженедельной продуктовой корзины.</li>
+                                <li>Оздоровление ЖКТ в традиционной китайской медицине</li>
+                                <li>О чём ещё молчит «Чернобыль»? Такое не принято сообщаться с экранов ТВ.</li>
+                                <li>Тайны психологии здорового общения: какое влияние на здоровье оказывает наша социализация? Можно ли справляться с болячками через общение с нужными людьми?</li>
+                                <li>Здоровое долголетие – вопрос наследственности, или есть ещё какой-то секрет?</li>
+                                <li>Может ли здоровый образ жизни быть не капризом или прихотью, а нормальным положением дел в семье?</li>
+                                <li>Простые правила формирования новых полезных для здоровья привычек.</li>
+                                <li>Карта здоровья внутренних органов: находим боль, выбираем метод, лечим.</li>
+                                <li>Упражнения для развития памяти, улучшения мышления, устранения возбудимости и апатии.</li>
+                                <li>Опорно-двигательная система, правила её оздоровления и предупреждение заболеваний.</li>
+                                <li>Сон – всему голова? Маматов раскрывает секреты целительного сновидения.</li>
+                                <li>Что знали «астрономы» Майя и какие «секреты бессмертия» жадно искали испанские конкистадоры?</li>
+                                <li>Единство со стихиями: индейское правило выздоровления на каждый день.</li>
+                                <li>Какие секреты долголетия передали нам наши сибирские бабушки? Правила приготовления и обработки воды, пищи.</li>
+                                <li>Почему болезнь никогда не приходит в одиночестве? Как не дать болезням привести своих «подруг»?</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="tab-courses tab-tb">
+                        	<ul>
+                                <li>Новые виды защиты от сердечно-сосудистых заболеваний.
+                                <li>Обогащаем программу по оздоровлению и оживлению мозга несколькими свежими практиками.</li>
+                                <li>Ещё раз о чистках: что из известного лучше всего помогает в преддверии зимы?</li>
+                                <li>«Слёзы гор» и «Сок скалы» - в чем разница и при каких недугах что полезнее?</li>
+                                <li>Правила приёма и тонкости использования для улучшения эффекта естественных минеральных комплексов.</li>
+                                <li>Какие витамины и когда полезнее? Что нужно знать об аптечных, в том числе детских витаминах?</li>
+                                <li>Соки: какие полезны, какие вредны и как в них разбираться без помощи профессионала?</li>
+                                <li>Суставы: боль, скрип, хруст, ограниченность в движении. Новые виды проработки проблемных мест наших больных конечностей.</li>
+                                <li>Готовим суставы и связки к холодам: лайф-хаки от сибирских костоправов.</li>
+                                <li>Сердце, воздух и вода – крепнем мы везде, всегда! Воздушные и водные процедуры для здоровья сердца.</li>
+                                <li>Проблемы ЖКТ и их решение естественным способом при помощи трав и пальцевой проработки.</li>
+                                <li>Алтайское травознайство в каждый дом! Обучение травоведению: основы, применение, продвинутый уровень.</li>
+                                <li>Аллергия, псориаз, экзема: устранение симптомов через лечение первопричин.</li>
+                                <li>Улучшение состояния позвоночника через парвильное укрепление мышечного каркаса спины.</li>
+                                <li>Зрение: лучшие методики естественной коррекции при помощи последних открытий.</li>
+                                <li>Устранение сбоев в работе почки и в мочеполовой системе.</li>
+                                <li>Чистка вен, сосудов и лимфодренаж без препаратов и операций.</li>
+                                <li>Эндокринная система: нормализация выработки гормонов, избавление от узлов в щитовидке, практики для диабетиков.</li>
+                                <li>Мягкая коррекция веса и жиросжигание без тренажеров – такого вам не расскажут в фитнес-центрах.</li>
+                                <li>«Зеленая Кухня»: рецепты блюд, смузи и коктейлей, улучшающих здоровье и придающих жизненный тонус в кратчайшие сроки.</li>
+                            </ul>
+                        </div>
+                        <div class="button-link"><a class="scroll" href="#reg">Регистрация</a></div>
+                    </div><!--content-courses-->
+                </div>
+                
+                
+            </div><!--b-courses-->
+            
+            
+            <div id="coms" class="b-coms">
+            	<div class="title">Отзывы наших слушателей</div>
+                
+                <div class="slider-coms">
+                	<div class="slide">
+                    	<div class="name-coms"><b>Юлия</b> 26.06.2021</div>
+                    	<div class="img-coms"><img src="images/YjqqR6ZDFWnPT3DCyH_aPKWKcccj0YS3lG5TUS4l_rYNquIDqOMAs-Ms62F9C1QhEF5NTs1I.jpg" alt="" /></div>
+                        <div class="text-coms">Применяю практику для сна. Помогает. Стараюсь и другие выполнять: увеличение объёма грудной клетки, постукивание костей... Вебинары супер, слушаю постоянно</div>
+                    </div>
+                	<div class="slide">
+                    	<div class="name-coms"><b>Алексей</b> 26.06.2021</div>
+                    	<div class="img-coms"><img src="images/OjZmxOzaoUE.jpg" alt="" /></div>
+                        <div class="text-coms">Этот вебинар, как мне кажется, был одним из лучших! Было много практик и полезной информации. Спасибо!)))</div>
+                    </div>
+                	<div class="slide">
+                    	<div class="name-coms"><b>Любовь</b> 26.06.2021</div>
+                    	<div class="img-coms"><img src="images/a_8ca9f48c.jpg" alt="" /></div>
+                        <div class="text-coms">Доброго здравия Алексей,у меня со здоровьем особых проблем нет ,свежий воздух, позитивный настрой,физ. упражнения и т.д. Но несмотря на это я с с огромным удовольствием смотрю Ваши видео.</div>
+                    </div>
+                	<div class="slide">
+                    	<div class="name-coms"><b>Татьяна</b> 26.06.2021</div>
+                    	<div class="img-coms"><img src="images/vk1.jpg" alt="" /></div>
+                        <div class="text-coms">Применяю практику для сна. Помогает. Стараюсь и другие выполнять: увеличение объёма грудной клетки, постукивание костей... Вебинары супер, слушаю постоянно</div>
+                    </div>
+                	<div class="slide">
+                    	<div class="name-coms"><b>Лана</b> 26.06.2021</div>
+                    	<div class="img-coms"><img src="images/vk2.jpg" alt="" /></div>
+                        <div class="text-coms">Сказать, что я в шоке, это ничего не сказать., Алексей, вы гений! Всё так просто и здорово! Благодарю</div>
+                    </div>
+                	<div class="slide">
+                    	<div class="name-coms"><b>Людмила</b> 26.06.2021</div>
+                    	<div class="img-coms"><img src="images/vk3.jpg" alt="" /></div>
+                        <div class="text-coms">Сказать, что я в шоке, это ничего не сказать., Алексей, вы гений! Всё так просто и здорово! Благодарю</div>
+                    </div>
+                	<div class="slide">
+                    	<div class="name-coms"><b>Юлия</b> 26.06.2021</div>
+                    	<div class="img-coms"><img src="images/YjqqR6ZDFWnPT3DCyH_aPKWKcccj0YS3lG5TUS4l_rYNquIDqOMAs-Ms62F9C1QhEF5NTs1I.jpg" alt="" /></div>
+                        <div class="text-coms">Применяю практику для сна. Помогает. Стараюсь и другие выполнять: увеличение объёма грудной клетки, постукивание костей... Вебинары супер, слушаю постоянно</div>
+                    </div>
+                	<div class="slide">
+                    	<div class="name-coms"><b>Алексей</b> 26.06.2021</div>
+                    	<div class="img-coms"><img src="images/OjZmxOzaoUE.jpg" alt="" /></div>
+                        <div class="text-coms">Этот вебинар, как мне кажется, был одним из лучших! Было много практик и полезной информации. Спасибо!)))</div>
+                    </div>
+                	<div class="slide">
+                    	<div class="name-coms"><b>Любовь</b> 26.06.2021</div>
+                    	<div class="img-coms"><img src="images/a_8ca9f48c.jpg" alt="" /></div>
+                        <div class="text-coms">Доброго здравия Алексей,у меня со здоровьем особых проблем нет ,свежий воздух, позитивный настрой,физ. упражнения и т.д. Но несмотря на это я с с огромным удовольствием смотрю Ваши видео.</div>
+                    </div>
+                	<div class="slide">
+                    	<div class="name-coms"><b>Татьяна</b> 26.06.2021</div>
+                    	<div class="img-coms"><img src="images/vk1.jpg" alt="" /></div>
+                        <div class="text-coms">Применяю практику для сна. Помогает. Стараюсь и другие выполнять: увеличение объёма грудной клетки, постукивание костей... Вебинары супер, слушаю постоянно</div>
+                    </div>
+                	<div class="slide">
+                    	<div class="name-coms"><b>Лана</b> 26.06.2021</div>
+                    	<div class="img-coms"><img src="images/vk2.jpg" alt="" /></div>
+                        <div class="text-coms">Сказать, что я в шоке, это ничего не сказать., Алексей, вы гений! Всё так просто и здорово! Благодарю</div>
+                    </div>
+                	<div class="slide">
+                    	<div class="name-coms"><b>Людмила</b> 26.06.2021</div>
+                    	<div class="img-coms"><img src="images/vk3.jpg" alt="" /></div>
+                        <div class="text-coms">Сказать, что я в шоке, это ничего не сказать., Алексей, вы гений! Всё так просто и здорово! Благодарю</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="about" class="b-autor">
+            	<div class="title">Об авторе курса</div>
+            	<div class="b-autor__inner">
+                	<div class="b-autor__img"><img src="images/am.webp" alt="" /></div>
+                    <div class="b-autor__text">
+                        <span>Алексей Маматов</span>
+                        <p>Автор программ естественного оздоровления организма, среди которых: «Древо Жизни», «Острое Зрение», «АллергоСТОП», «МЕГА-Мозг» и другие.</p>
+                        <div class="b-autor__letter"><img src="images/Shape_1.svg" alt="" /></div>
+                    </div>
+                </div>
+            </div><!--b-autor-->
+
+            <div id="reg" class="wr-about-bot">
+            	<div class="title">Регистрация на курс</div>
+                <div class="about about-bottom">
+                    <div class="about__right">
+                        <div class="about__title">
+                            <p>Получите доступ к бесплатным трансляциям «Код здоровья»</p>
+                        </div>
+                        
+                        <div class="about__form">
+                            <form>
+                                <div class="about__field"><input type="text" placeholder="Ваше имя" /></div>
+                                <div class="about__field"><input type="text" placeholder="Ваш телефон" /></div>
+                                <div class="assest">
+                                    <input checked id="check2" type="checkbox" />
+                                    <label for="check2">Отправляя данную форму, вы соглашаетесь с <a target="_blank" href="https://mamatov.com/privacy/">политикой конфиденциальности</a> и <a target="_blank" href="https://mamatov.com/payback/">договором оферты.</a></label>
+                                </div>
+                                <div class="about__button"><button type="submit">Регистрация</button></div>
+                            </form>
+                            <div class="ass">Внимание! Количество мест на трансляции ограничено! Успейте зарегистрироваться и забронировать место на бесплатной трансляции.</div>
+                        </div>
+                    </div>
+                    <div class="about__left">
+                        <img src="images/aA66xTSSVQ8-removebg-preview.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            
+        </div><!--content-->
+        
+        <div id="contacts" class="wr-footer">
+            <footer>
+                <div class="footer__inner">
+                    <div class="footer__left">
+                    	<div class="contacts-f">
+							E-mail: <a href="mailto:email@rubulat.ru">email@rubulat.ru</a><br>
+                            ИП Маматов Алексей Сергеевич<br>
+                            ИНН 502411835395<br>
+                            ОГРН 309502419600032<br>
+                        </div>
+                        
+                        <div class="soc-f">
+                        	<ul>
+                            	<li class="item1"><a target="_blank" href="https://vk.com/zdorovie_i_dolgolet"></a></li>
+                                <li class="item2"><a target="_blank" href="https://ok.ru/group/54801859018778"></a></li>
+                                <li class="item3"><a target="_blank" href="https://www.youtube.com/user/rubulatru"></a></li>
+                                <li class="item4"><a target="_blank" href="https://www.facebook.com/klubzdorovia1"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer__right">
+                    	<div id="map"></div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+	</div><!--main-->
+</body>
+</html>
