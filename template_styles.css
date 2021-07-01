@@ -62,7 +62,7 @@ header{max-width:1230px;margin:0 auto;padding:0 15px 0 15px}
 .about__right p{margin:0 0 15px 0;padding:0}
 .about__field{margin:0 0 15px 0}
 .about__field input{display:block;width:100%;height:52px;font-family:'Circe';padding:0 10px 0 10px;background:#fff;color:#333;font-weight:300;text-align:center;border:0;outline:0;color:#333}
-.assest{margin-bottom:15px}
+.assest{position:relative;margin-bottom:15px}
 .about__button button{display:block;transition:.3s;width:100%;height:52px;padding:2px 0 0 0;font-family:'Circe';font-size:18px;font-weight:700;text-transform:uppercase;background:#f56c23;color:#fff;border:0;cursor:pointer;outline:0}
 .about__button button:hover{opacity:0.95}
 .assest label{display:inline-block;position:relative;cursor:pointer;padding:0 0 0 26px;line-height:21px;font-size:16px}
