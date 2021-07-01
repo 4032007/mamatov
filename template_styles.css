@@ -124,6 +124,14 @@ footer{max-width:1230px;margin:0 auto;padding:0 15px 0 15px}
 .soc-f ul li.item2 a{background:#fff url(images/sprite.png) -10px -75px no-repeat}
 .soc-f ul li.item3 a{background:#fff url(images/sprite.png) -10px -10px no-repeat}
 .soc-f ul li.item4 a{background:#fff url(images/sprite.png) -75px -75px no-repeat}
+#countdown_dashboard{width:248px;height:60px;margin:0 auto}
+.dash{display:inline-block;vertical-align:top;width:46px;padding:0;position:relative;color:#333}
+.dash_title{display:block;border-top:2px solid #fff;padding-top:2px;margin:5px 0 0 0;text-align:center;font-size:16px;line-height:16px;color:#fff}
+.wr-time{height:22px;overflow:hidden}
+.wr-time .digit{float:right;width:23px;text-align:center;position:relative;font-size:26px;line-height:26px;font-weight:700;color:#fff}
+.wr-time .digit:first-child{float:left}
+.colon{margin:14px 0 0 3px;width:8px;height:31px;display:inline-block;vertical-align:top}
+.tit-act{font-size:18px; font-weight:700; color:#fff; text-align:center; margin-bottom:5px}
 
 
 /*adaptive version*/

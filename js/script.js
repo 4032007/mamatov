@@ -38,6 +38,19 @@ $('.slider-coms').slick({
   ]
 });
 
+//countdown
+	$('#countdown_dashboard').countDown({
+		omitWeeks: true,
+		targetOffset: {
+			'day': 		2,
+			'month': 	0,
+			'year': 	0,
+			'hour': 	5,
+			'min': 		25,
+			'sec': 		38
+		}
+	});
+
 //menu
 	$('.menu-tt a').click(function(){
 		$(this).parent().toggleClass('active');
