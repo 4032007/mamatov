@@ -60,6 +60,7 @@ header{max-width:1230px;margin:0 auto;padding:0 15px 0 15px}
 .about__right a{color:#fff}
 .about__title span{display:block;font-size:30px;margin:0 0 10px 0;line-height:32px;font-weight:700}
 .about__right p{margin:0 0 15px 0;padding:0}
+.about__title p b { font-size:25px}
 .about__field{margin:0 0 15px 0}
 .about__field input{display:block;width:100%;height:52px;font-family:'Circe';padding:0 10px 0 10px;background:#fff;color:#333;font-weight:300;text-align:center;border:0;outline:0;color:#333}
 .assest{position:relative;margin-bottom:15px}
@@ -199,5 +200,5 @@ footer{max-width:1230px;margin:0 auto;padding:0 15px 0 15px}
 	.footer__right{width:auto}
 	#map{width:100vw;margin-left:-15px;height:250px}
 	.footer__right{min-height:250px}
-	.b-coms{padding-bottom:60px}
+	.b-coms{padding-bottom:80px}
 }
